@@ -1,0 +1,7 @@
+<button>Checkout</button>
+<h1>Categories</h1>
+
+<div *ngFor = "let category of categories">
+    <h3 routerLink = "/categories/{{category.id}}">{{category.name}}</h3>
+</div>
+

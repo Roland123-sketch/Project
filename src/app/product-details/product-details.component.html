@@ -1,0 +1,10 @@
+<div *ngIf="product">
+    <button>Checkout</button>
+<h1>{{product?.description}}</h1>
+<h3>price: £{{product?.price}}</h3>
+<p>quantity: {{product?.quantity}}</p>
+<p>{{product?.details}}</p>
+<img *ngFor = "let fotoUrl of product?.photos" width = "200" [src]="fotoUrl" alt="nothing">
+<button (click)="addToCart(product)">+</button>
+<button (click)="clearToCart(product)">-</button>
+</div>

@@ -1,0 +1,9 @@
+<button>Checkout</button>
+<h1>{{category?.name}}</h1>
+<div class="product" *ngFor = "let product of category?.products" routerLink="/products/{{product.id}}">
+    
+    <h3>{{product.description}}</h3>  
+    <img [src]="product.photos[0]" width = "80">
+     <p>price:{{product.price}}</p>
+     
+ </div>

@@ -1,0 +1,60 @@
+{
+    "products":[{
+        "id":1,
+        "description":"T-shirt",
+        "price": 35,
+        "photos": ["https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1e%2F86%2F1e86c77fb86afc19daad9acb5b39470e7bc5ca1f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]"],
+        "quantity": 3,
+        "categoryId":1,
+        "details":"lorem ipsum"
+        
+    },
+    {
+        "id":2,
+        "description":"Jeans",
+        "price": 25,
+        "photos": ["https://rohan.imgix.net/product/04408D94.jpg?w=2500&auto=format&q=77"],
+        "quantity": 5,
+        "categoryId":1,
+        "details":"lorem ipsum"
+    },
+    {
+        "id":3,
+        "description":"Shoes",
+        "price": 25,
+        "photos": ["https://res.cloudinary.com/atoms-shoes/image/upload/c_scale,w_1400,q_auto,f_auto/v1622733115/products/shoes/model000/black-white_profile"],
+        "quantity": 10,
+        "details":"lorem ipsum",
+        "categoryId":2
+    },
+    {
+        "id":4,
+        "description":"Jacket",
+        "price": 50,
+        "photos": ["https://rohan.imgix.net/product/05668P21.jpg?w=2500&auto=format&q=77"],
+        "quantity": 2,
+        "details":"lorem ipsum",
+        "categoryId":2
+    }],
+    "categories":[{
+        "id":1,
+        "name": "Sport"
+},
+{
+    "id":2,
+    "name": "Casual" 
+}],
+    "shippings":[{
+        "id": "super-fast",
+        "type": "Overnight",
+        "price": 26.00
+    },{
+        "id": "standard",
+        "type": "2-Days after purchase",
+        "price": 9.00
+    },
+    {
+        "id": "slow",
+        "type": "Postal",
+        "price": 3.50
+}]}
